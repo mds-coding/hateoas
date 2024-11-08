@@ -1,0 +1,23 @@
+{
+  "license": "ISC",
+  "version": "0.0.0",
+  "author": "mdos-san",
+  "name": "@mds-coding/hateoas",
+  "description": "Wrapper of all hateoas packages related to @mds-coding",
+  "type": "module",
+  "main": "./build/index.js",
+  "types": "./build/index.d.ts",
+  "scripts": {
+    "build": "tsc -p ./tsconfig.json"
+  },
+  "dependencies": {
+    "@mds-coding/hateoas-action": "^1.0.0",
+    "@mds-coding/hateoas-entity": "^1.0.0",
+    "@mds-coding/hateoas-field": "^1.0.0",
+    "@mds-coding/hateoas-link": "^1.0.0",
+    "@mds-coding/hateoas-resource": "^1.0.0"
+  },
+  "devDependencies": {
+    "typescript": "^5.6.3"
+  }
+}
