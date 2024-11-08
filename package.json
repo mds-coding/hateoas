@@ -1,6 +1,6 @@
 {
   "license": "ISC",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "author": "mdos-san",
   "name": "@mds-coding/hateoas",
   "description": "Wrapper of all hateoas packages related to @mds-coding",
@@ -8,6 +8,7 @@
   "main": "./build/index.js",
   "types": "./build/index.d.ts",
   "scripts": {
+    "prepack": "npm run build",
     "build": "tsc -p ./tsconfig.json"
   },
   "dependencies": {
